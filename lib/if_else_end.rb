@@ -2,8 +2,10 @@
 
 current_time = Time.now 
 
-if current_time %2 == 0 
+
+def time_even_odd (current_time)
+  if current_time %2 == 0 
   puts "Even!"
-else
+  else
   puts "Odd!"
 end
